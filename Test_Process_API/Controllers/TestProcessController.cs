@@ -60,6 +60,11 @@ namespace Test_Process_API.Controllers
         public IActionResult Master(){
         throw new Exception();
         }
+        
+        [HttpOptions("hiGirl")]
+        public IActionResult Girl(){
+            return Ok();
+        }
 
     }
 }
