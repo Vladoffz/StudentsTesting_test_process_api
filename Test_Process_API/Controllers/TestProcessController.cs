@@ -65,6 +65,9 @@ namespace Test_Process_API.Controllers
         public IActionResult Girl1(){
             return Ok();
         }
-
+        [HttpOptions("byGirl")]
+        public IActionResult Girl1(){
+            return Ok();
+        }
     }
 }
